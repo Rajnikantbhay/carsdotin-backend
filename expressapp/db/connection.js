@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const url = "mongodb+srv://rizznikant:X44Xp2BR2902gQet@cluster0.xzxkxeo.mongodb.net/carsweb"
+const url = MONGO_URI
 
 const con = async () => {
     try {
