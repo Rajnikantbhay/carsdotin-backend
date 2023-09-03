@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const url = MONGO_URI
+const url = process.env.MONGO_URI
 
 const con = async () => {
     try {
